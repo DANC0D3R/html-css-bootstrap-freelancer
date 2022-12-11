@@ -1,0 +1,141 @@
+/* ----- HEADER ----- */
+header{
+    background-color: var(--dark-bg);
+}
+
+header .navbar li a{
+    color: #FFFFFF;
+}
+
+header .navbar .navbar-toggler{
+    border-color: #FFFFFF;
+}
+
+header .navbar .bi-list{
+    color: var(--bs-gray);
+} 
+
+.nav-link:focus, .nav-link:hover{
+    color: var(--acquamarine);
+}
+
+
+/* ----- MAIN ----- */
+/* -- INTRO -- */
+#intro{
+    background-color: var(--acquamarine);
+}
+
+#intro img{
+    max-width: 300PX;
+}
+
+/* -- PORTFOLIO -- */
+#portfolio{
+    color: var(--dark-bg);
+}
+
+#portfolio .overlay{
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #1ABC9CB3;
+}
+
+#portfolio .image:hover .overlay{
+    display: block;
+}
+
+/* -- ABOUT -- */
+#about{
+    background-color: var(--acquamarine);
+}
+
+/* -- CONTACT -- */
+#contact{
+    color: var(--dark-bg);
+}
+
+/* FORM */
+#contact input:not([type="submit"]), #contact textarea{
+    padding: 1em 0;
+
+    border-width: 0 0 1px;
+    border-radius: 0;
+    border-color: var(--bs-gray-500);
+}
+
+#contact textarea{
+    height: 200px;
+}
+
+#contact input::placeholder, #contact textarea::placeholder{
+    font-weight: 500;
+    font-size: 1.3rem;
+
+    opacity: 1;
+
+    color: var(--light-dark-bg);
+}
+
+#contact .form-control:hover, #contact .form-control:focus{
+    border-width: 0 0 1px;
+    border-color: var(--acquamarine);
+
+    box-shadow: none;
+
+    outline: none;
+}
+
+#contact .btn{
+    font-size: 1.3em;
+
+    color: #FFFFFF;
+    background-color: var(--acquamarine);
+}
+
+
+/* ----- FOOTER ----- */
+/* -- LINK UTILI -- */
+#link{
+    background-color: var(--light-dark-bg);
+}
+
+/* SOCIAL */
+#link .social a {
+    display: inline-block;
+
+    width: 40px;
+    height: 40px;
+
+    line-height: 40px;
+    text-align: center;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#link a{
+    text-decoration: none;
+    color: var(--acquamarine);
+}
+#link a:hover{
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+#link .social a:hover{
+    color: var(--acquamarine);
+    
+    border-color: var(--acquamarine);
+}
+
+/* COPYRIGHT */
+#copyright{
+    background-color: var(--dark-bg);
+}

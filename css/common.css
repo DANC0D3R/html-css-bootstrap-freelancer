@@ -1,0 +1,30 @@
+/* REGOLE GENERALI */
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.star-divider .bi-star-fill {
+    vertical-align: middle;
+
+    font-size: 2.5em;
+}
+
+.star-divider hr {
+    display: inline-block;
+
+    width: 15%;
+    vertical-align: middle;
+
+    border: 2px solid;
+    border-radius: 50px;
+
+    opacity: 1;
+}
+
+/* PALETTE COLORI */
+:root {
+    --dark-bg: #2c3e50;
+    --light-dark-bg: #3a546d;
+    --acquamarine: #1abc9c;
+}

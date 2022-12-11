@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+        <!-- Icone Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+        <!-- Stile -->
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Bootstrap Freelancer</title>
+    </head>
+
+    <body>
+
+        <!-- HEADER -->
+
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md">
+                <div class="container">
+                    <!-- Homepage -->
+                    <a class="text-uppercase navbar-brand text-white fw-bold fs-3" href="index.html">start bootstrap</a>
+                    <!-- Hamburger Menu -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+                        <i class="bi bi-list fs-1"></i>
+                    </button>
+                    <!-- Link / Menu a Tendina -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto my-2 fw-semibold">
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link px-4" href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link px-4" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-uppercase nav-link px-4" href="#contact">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+
+        <main>
+            <section id="intro">
+                <div class="container">
+                    <div class="row text-center text-white">
+                        <div class="col">
+                            <img src="img/avatar.svg" alt="Avatar">
+                            <!-- Titolo -->
+                            <h1 class="text-uppercase display-4 fw-semibold my-3">start bootstrap</h1>
+                            <div class="star-divider">
+                                <hr>
+                                <i class="bi bi-star-fill px-3"></i>
+                                <hr>
+                            </div>
+                            <!-- Testo -->
+                            <p class="my-3 fs-4 fw-semibold text-uppercase">graphic artist - web designer - illustrator</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Portfolio -->
+            <section id="portfolio">
+                <div class="container-md">
+                    <!-- Titolo -->
+                    <div class="row text-center mb-4">
+                        <div class="col-12">
+                            <h2 class="text-uppercase display-5 fw-semibold my-3">portfolio</h2>
+                            <div class="star-divider">
+                                <hr>
+                                <i class="bi bi-star-fill px-3"></i>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Immagini -->
+                    <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 mb-4">
+                        <!-- Rifugio -->
+                        <div class="col">
+                            <div class="image position-relative rounded-3 overflow-hidden">
+                                <img class="img-fluid" src="img/cabin.png" alt="Rifugio">
+                                <div class="overlay position-absolute top-0 start-0">
+                                    <i class="bi bi-play-fill position-absolute top-50 start-50 translate-middle text-white display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Torta -->
+                        <div class="col">
+                            <div class="image position-relative rounded-3 overflow-hidden">
+                                <img class="img-fluid" src="img/cake.png" alt="Torta">
+                                <div class="overlay position-absolute top-0 start-0">
+                                    <i class="bi bi-play-fill position-absolute top-50 start-50 translate-middle text-white display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Circo -->
+                        <div class="col">
+                            <div class="image position-relative rounded-3 overflow-hidden">
+                                <img class="img-fluid" src="img/circus.png" alt="Circo">
+                                <div class="overlay position-absolute top-0 start-0">
+                                    <i class="bi bi-play-fill position-absolute top-50 start-50 translate-middle text-white display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Gamepad -->
+                        <div class="col">
+                            <div class="image position-relative rounded-3 overflow-hidden">
+                                <img class="img-fluid" src="img/game.png" alt="Gamepad">
+                                <div class="overlay position-absolute top-0 start-0">
+                                    <i class="bi bi-play-fill position-absolute top-50 start-50 translate-middle text-white display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cassaforte -->
+                        <div class="col">
+                            <div class="image position-relative rounded-3 overflow-hidden">
+                                <img class="img-fluid" src="img/safe.png" alt="Cassaforte">
+                                <div class="overlay position-absolute top-0 start-0">
+                                    <i class="bi bi-play-fill position-absolute top-50 start-50 translate-middle text-white display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sottomarino -->
+                        <div class="col">
+                            <div class="image position-relative rounded-3 overflow-hidden">
+                                <img class="img-fluid" src="img/submarine.png" alt="Sottomarino">
+                                <div class="overlay position-absolute top-0 start-0">
+                                    <i class="bi bi-play-fill position-absolute top-50 start-50 translate-middle text-white display-1"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About -->
+            <section id="about">
+                <div class="container">
+                    <!-- Titolo -->
+                    <div class="row text-white text-center">
+                        <div class="col">
+                            <h2 class="text-uppercase display-5 fw-semibold my-3">about</h2>
+                            <div class="star-divider">
+                                <hr>
+                                <i class="bi bi-star-fill px-3"></i>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testi -->
+                    <div class="row text-white justify-content-center my-4">
+                        <div class="col-8 col-lg-4 col-xl-5">
+                            <p class="fs-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi itaque accusantium, incidunt ex ipsum fugit distinctio vitae maiores adipisci ullam quia soluta, laboriosam deleniti. Molestias accusamus sed hic officiis error!
+                            </p>
+                        </div>
+                        <div class="col-8 col-lg-4 col-xl-5">
+                            <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita soluta dolorum iusto debitis ea, sint voluptate esse quas magni odio eveniet reiciendis. Nam maiores et earum, expedita soluta eligendi molestiae.</p>
+                        </div>
+                        <div class="col-8 col-xl-10 text-center mt-4">
+                            <a type="button" class="btn btn-outline-light fs-5" href="#"><i class="bi bi-download"></i>Download</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contatti -->
+            <section id="contact">
+                <div class="container">
+                    <!-- Titolo -->
+                    <div class="row text-center">
+                        <div class="col">
+                            <h2 class="text-uppercase display-5 fw-semibold my-3">contact me</h2>
+                            <div class="star-divider">
+                                <hr>
+                                <i class="bi bi-star-fill px-3"></i>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Form -->
+                    <div class="row justify-content-center py-4">
+                        <div class="col-8 col-xl-10">
+                            <form method="get">
+                                <input type="text" class="form-control form-control-lg" placeholder="Name">
+                                <input type="email" class="form-control form-control-lg" placeholder="Email Address">
+                                <input type="number" class="form-control form-control-lg" placeholder="Phone Number">
+                                <textarea class="form-control .form-control-lg" placeholder="Write a message"></textarea>
+                                <input class="btn my-3" type="submit" value="Send">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+
+        <footer>
+            <!-- Link Utili -->
+            <section id="link">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-lg-3 text-white text-center">
+                        <!-- Posizione -->
+                        <div class="col">
+                            <h3 class="text-uppercase my-2">location</h3>
+                            <p class="fs-5">
+                                2215 John Daniel Drive Clark, MO 54243
+                            </p>
+                        </div>
+                        <!-- Social -->
+                        <div class="col">
+                            <h3 class="text-uppercase my-2">around the web</h3>
+                            <div class="social"> 
+                                <a href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-google"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- About Freelancer -->
+                        <div class="col">
+                            <h3 class="text-uppercase my-2">about freelancer</h3>
+                            <p class="fs-5">
+                                Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Copyright -->
+            <section id="copyright">
+                <div class="container">
+                    <div class="row text-white text-center">
+                        <div class="col-12">
+                            <small>Copyright &copy; Your Website 2022</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <!-- Script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    </body>
+    <!-- Crediti DM -->
+</html>
